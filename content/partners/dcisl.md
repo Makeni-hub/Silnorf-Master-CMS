@@ -6,6 +6,7 @@ email: "dcimakeni@gmail.com"
 tel: "+232-76 889-799"
 description: "Defence  for  children  Sierra  Leone  (DCI-SL)  is  a  Sierra  Leonean  chapter  for  Defence  for  Children 
 International."
+draft: false
 ---
 
 

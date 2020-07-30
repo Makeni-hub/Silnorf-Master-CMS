@@ -6,6 +6,7 @@ email: "forumforhumanrightdevelopment@gmail.com"
 tel: "+232-88-103-349"
 description: "FOHRD  advocates  for  the  provision  of  equal  opportunities  and  promotion  of  participation  of 
 women and children in all facets of national development as being enjoyed by men."
+draft: false
 ---
 
 
