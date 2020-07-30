@@ -1,0 +1,379 @@
+:root {
+	--font-family: sans-serif;
+	--font-size: 1.2em;
+	--main-heading: 2em;
+	--sub-heading: 1.5em;
+	--white: #ffffff;
+	--green: #009933;
+	--blue: #3377ff;
+	--black: #000000;
+	--paragraphs: 1.3em;
+	--footer-margin: 1em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*
+Adding CSS Reset Code
+	Applying CSS reset to all major HTML tags
+*/
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-family);
+}
+
+.container {
+	margin: auto;
+	overflow: hidden;
+}
+
+main {
+	margin: 1em 1em 0 1em;
+	padding: 1em 0;
+	text-align: left;
+	font-size: 1.3em;
+}
+
+h1, h2 {
+	color: var(--blue);
+	text-align: center;
+	font-size: 1.7;
+}
+main h4, h3{
+	text-align: left;
+	color: var(--blue);
+}
+
+main li {
+	margin-left: 2em;
+	font-size: var(--paragraphs);
+}
+main svg{
+	width: 3em;
+	fill:var(--green)
+}
+
+/*Header Styling*/
+
+header .container {
+	border-bottom: 5px solid var(--blue);
+}
+
+.navbar-brand {
+	width: 5em;
+	float: left;
+}
+
+nav ul {
+	display: flex;
+	float: right;
+	margin-right: 1em;
+	list-style: none;
+}
+
+nav ul li {
+	margin-top: 1.0em;
+	margin-left: 2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar-nav a:hover {
+	color: var(--blue);
+}
+
+.current {
+	color: var(--green);
+	font-weight: bold;
+}
+
+/* Styling Home Page Body Section Starts Here*/
+
+/* Banner Styling */
+
+#banner {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#banner h1 {
+	padding: 5em 0 5em 0;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 2px 0 2px;
+}
+
+/* Mission, visison and Values section */
+
+#mission-vision-section {
+	display: block;
+}
+
+.mission-vision {
+	text-align: center;
+	padding: 10px;
+}
+
+.mission-vision img {
+	width: 100%;
+}
+
+#main-discriptions {
+	margin: 3em 0 2em 0;
+}
+
+#main-discriptions p {
+	padding: 0 1em 0 1em;
+}
+
+/* About Page */
+
+.membership {
+	display: block;
+}
+
+img {
+	width: 100%;
+}
+
+.board {
+	display: block;
+}
+
+/* End of About Page */
+
+/*Partners Page Styling Starts*/
+
+.button h2 {
+	border: 3px solid var(--blue);
+	color: blue;
+	border-radius: 30px;
+	width: 10em;
+	max-width: 100%;
+	text-align: center;
+}
+
+.partners h1 {
+	font-size: 1em;
+}
+
+.partners ul {
+	list-style: none;
+}
+
+.partnersheader p {
+	font-style: italic;
+	text-align: center;
+	font-size: .6em;
+}
+
+/*Partners Page Styling Ends*/
+
+/*Contact Page */
+
+footer {
+	padding-top: var(--footer-margin);
+	text-align: center;
+	background-color: var(--green);
+}
+
+.contact {
+	display: block;
+	text-align: center;
+}
+
+.contact_info1 {
+	margin-top: 0.5em;
+}
+
+svg {
+	width: 1.5em;
+	height: auto;
+}
+
+footer svg {
+	margin-top: 1em;
+}
+
+#mission-vision-section svg{
+	width: 3em;
+	fill: var(--green);
+}
+
+.contact_info1 p {
+	text-align: center;
+}
+
+.contact_info2 p {
+	text-align: center;
+}
+
+.contact_info2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.map iframe {
+	/*width:1200px;*/
+	width: 100%;
+	height: 400px;
+}
+
+/*End of Contact Page */
+
+/*Styling footer menu links*/
+
+footer a:hover {
+	color: white;
+}
+
+footer ul {
+	margin-top: 1em;
+}
+
+footer li {
+	padding-bottom: 1em;
+}
+
+.sub-footer {
+	background-color: var(--black);
+	color: var(--white);
+	padding: .8em;
+	margin-top: var(--footer-margin);
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.sub-footer a {
+	color: var(--green);
+}
+
+/*End of Sub footer style */
+
+/*Applying media Queries*/
+
+/*Homepage Styling */
+
+@media (min-width: 920px) {
+	/*Homepage Styling */
+	.container .navbar-brand img {
+		margin-top: 20%;
+		margin-left: 36%;
+	}
+	#banner .container1 h1 {
+		font-size: 3em;
+		padding: 3em 1em 3em 1em;
+		animation-duration: 3s;
+		animation-name: slidein;
+	}
+	@keyframes slidein {
+		from {
+			font-size: 0.1em;
+			color: var(--green)
+		}
+		to {
+			transition-duration: 2s;
+			-o-transition-delay: 1s;
+			color: var(--blue);
+			font-size: 3em;
+		}
+	}
+	nav ul li {
+		margin-top: 2em;
+		margin-left: 2em;
+	}
+	.container .navbar-brand img {
+		margin-top: 20%;
+		margin-left: 36%;
+	}
+	body {
+		font-family: var(--font-family);
+		font-size: 1.3em;
+	}
+	main {
+		margin: 1em 1em 0 1em;
+		padding: 1em 0;
+		text-align: left;
+	}
+	main h1, h2 {
+		text-align: center;
+		color: var(--blue);
+	}
+	main h3, h4 {
+		color: var(--blue);
+	}
+	main h1 {
+		font-size: var(--main-heading);
+	}
+	#mission-vision-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 2em 0;
+	}
+	/*Homepage Styling End */
+	.membership {
+		margin-top: 2em;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2em;
+	}
+	#struct h2 {
+		margin-bottom: 0.5em;
+	}
+	.board {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2em;
+		margin-top: 2em;
+	}
+	/*About Us Styling End */
+	/*Partners Page Styling Starts*/
+	.partners ul {
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.button h2 {
+		text-decoration: none;
+		border: 3px solid blue;
+		border-radius: 50px;
+		width: 45%;
+		text-align: center;
+	}
+	.button h2:hover {
+		color: white;
+		background-color: blue;
+	}
+	/*Partners Page Styling Ends*/
+	/*Contact Page */
+	.map iframe {
+		width: 100%;
+		height: 400px;
+	}
+	.contact {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	/*End of Contact Page */
+	/*Footer Styling Starts*/
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/*Footer Styling Ends*/

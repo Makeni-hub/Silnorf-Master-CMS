@@ -1,0 +1,53 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+media_folder: "static/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "homepage" # Used in routes, e.g., /admin/collections/blog
+    label: "Home Page" # Used in the UI
+    folder: "content/homepage" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Upload Image", name: "icon", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
+    label: "About" # Used in the UI
+    folder: "content/about" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    
+  - name: "partners" # Used in routes, e.g., /admin/collections/blog
+    label: "Partners" # Used in the UI
+    folder: "content/partners" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Read More", name: "read_more", widget: "string"}
+      - {label: "Address", name: "address", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Telephone", name: "tel", widget: "number"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "contact" # Used in routes, e.g., /admin/collections/blog
+    label: "Contact" # Used in the UI
+    folder: "content/contact" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Address", name: "address", widget: "string"}
+      - {label: "Location Icon", name: "location_icon", widget: "image"}
+      - {label: "Email Icon", name: "email_icon", widget: "image"}
+    

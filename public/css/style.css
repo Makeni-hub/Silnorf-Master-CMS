@@ -1,0 +1,560 @@
+:root {
+--font-family: sans-serif;
+--font-size: 1.2em;
+--main-heading: 45px;
+--sub-heading: 20px;
+--white: #ffffff;
+--green:#009933;
+--blue:#3377ff;
+--black: #000000;
+--Paragraphs: 1em;
+}
+*{
+	box-sizing: border-box;
+}
+/*
+Adding CSS Reset Code
+	Applying CSS reset to all major HTML tags
+*/
+body,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin:0; 
+	padding:0;
+}
+body{
+	font-family: var(--font-family);
+}
+
+.container{
+   margin: auto;
+   overflow: hidden;
+}
+
+main{
+	margin-left: 5em;
+	margin-top: 5em;
+}
+h1{
+	color: var(--blue);
+	font-size: 20px;
+}
+
+ul li{
+	margin-left: 2em;
+}
+ol li{
+	margin-left: 2em;
+}
+
+/*Header Styling*/
+header .container{
+	background-color: var(--white);
+	border-bottom: 5px solid var(--blue);
+}
+.navbar-brand{
+	width: 5em;
+	float: left;
+}
+nav ul{
+	display: flex;
+	float: right;
+	margin-right: 1em;
+}
+nav ul li{
+	list-style-type: none;
+	margin-top: 2.5em;
+	margin-left: 2em;
+}
+nav ul li a{
+	text-decoration: none;
+}
+
+.navbar-nav a:hover {
+	color: var(--blue);
+
+  }
+
+header .current a{
+color: #1cb836;
+font-weight: bold;
+}
+
+
+main{
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+/* Styling Home Page Body Section Starts Here*/
+
+/* Banner Styling */
+#banner  {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	color: var(--blue);
+}
+#banner h1{
+	   padding-top: 150px;
+	   text-align: center;
+	   font-size: 2em;
+	   padding-bottom: 200px;
+	   margin: 0 2px 0 2px;
+}
+
+/* Mission, visison and Values section */
+.containervision{
+	display: block;
+
+}
+#mission-vision-section .containervision {
+	font-size: var(--sub-heading);
+  }
+#mission-vision-section .mission-vision {
+	text-align: center;
+	padding: 10px;
+  }
+  #mission-vision-section .mission-vision p {
+	padding-left: 50px;
+	padding-right: 50px;
+  }
+  #mission-vision-section .mission-vision img{
+	width: 100%;
+  }
+  #mission-vision-section .mission-vision h3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+  }
+  .mission-vision h2{
+	color: var(--blue);
+  }
+/*Main Discription Section*/
+/*Changing the class for description section and adding it's own seperate setting*/
+.container-service{
+	display: grid;
+	/*grid-template-columns: 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
+	grid-template-rows: 1fr;
+	margin-left: 50px;
+	cursor: pointer;
+}
+#main-discriptions .discription-heading{
+	margin-top: 100px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+#main-discriptions .discription-heading h2{
+	font-size: var(--main-heading);
+	margin-top: 100px;
+	color: var(--blue);
+	font-size:40px;
+	margin-bottom: 30px;
+}
+#main-discriptions .discription-heading p{
+	margin-bottom: 50px;
+	font-size: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+#main-discriptions{
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+#main-discriptions .discription img{
+width:100%;
+}
+#main-discriptions .discription h3{
+	color: var(--green);
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#main-discriptions .discription p{
+	padding: 10px;
+}
+
+/* About Page */
+.history p{
+	text-align: left;
+}
+#struct p {
+	text-align: left;
+	}
+	.memboard p {
+		text-align: left;
+		}
+.membership {
+	display: block;
+	}
+	.membership img {
+		
+		width: 100%;
+		}
+#struct{
+	margin: 0.5em;
+	}
+	#struct h2{
+		font-size: 1.5em;
+		}
+	
+.board {
+	display: block;
+	}
+	.board .memboard img {
+		width: 100%;
+		}
+main h2,h3{
+	color: var(--blue);
+	text-align: center;
+	font-size: 2em;
+	}
+main p{
+text-align: left;
+font-size: 1.5em;
+}
+/* End of About Page */
+
+/*Partners Page Styling Starts*/  
+.partners ul{
+	list-style: none;
+}
+.partners a{
+	text-decoration: none;
+}
+.partners h1{
+	color: var(--blue);
+}
+.partners .button h2 {
+	text-decoration: none;
+	border: 3px solid var(--blue);
+	color: blue;
+	border-radius: 50px;
+	width: 45%;
+	text-align: center;
+	font-size: 1.3em;
+}
+.partnersheader{
+	box-sizing: border-box;
+	margin-bottom: 2em;
+}
+.partnersheader h1{
+	font-size: 2em;
+	color: var(--blue);
+	text-align: center;
+}
+.partnersheader p{
+	font-style: italic;
+	text-align: center;
+	font-size: 14px;
+}
+
+ /*Partners Page Styling Ends*/
+
+		
+/*Contact Page */
+.containerfooter{
+	margin-top: 30px;
+}
+.contact{
+	display: block;
+}
+.contact_info1{
+	margin-top: 0.5em;
+}
+.contact_info1 img{
+		max-width:10%;
+		height:auto;
+	    margin-left: 45%;
+}
+.contact_info2 img{
+	max-width:10%;
+	height:auto;
+	margin-left: 45%;
+}
+.contact_info1 p{
+	text-align: center;
+}
+.contact_info2 p{
+	text-align: center;
+}
+.contact_info2{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.map iframe {
+	/*width:1200px;*/
+	width: 100%;
+	height:400px;	
+}
+
+/*End of Contact Page */
+.containerfooter{
+	display: block;
+	background-color: var(--green);
+	clear: both;
+}
+/*Styling footer menu links*/
+.footer-menu-items h4{
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+.footer-menu-list {
+	list-style: none;
+}
+.footer-menu-list a{
+	text-decoration: none;
+	color: blue;
+}
+.footer-menu-list a:hover{
+	color: white;
+}
+.footer-menu-list li {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+/*Styling footer Contact Items*/
+.footer-contact-items h4{
+	text-align: center;
+}
+.footer-contact-items ul{
+	text-align: center;
+}
+.footer-contact-items ul a p{
+	text-align: center;
+}
+.footer-contact-items ul a #email{
+	padding-bottom: 2em;
+}
+
+.footer-contact-list a {
+	text-decoration: none;
+}
+.footer-contact-list a p{
+	text-align: left;
+	color: white;
+}
+.footer-contact-list a img{
+	padding-top: 10px;
+	width: 25px;
+	Margin-left: 25px;
+}
+
+.sub-footer .container10 .row1{
+	background-color: var(--black);
+	color: var(--white);
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+.sub-footer .container10 .row1 a{
+	color: var(--green);
+	text-decoration: none;
+}
+/*Applying Transition Effect on Services */
+.discription:hover{
+	transition: ease;
+	transform: translateY(-10px);
+}
+.discription img:hover{
+	width: 100%;
+}
+
+/*Appying Amimation on the banner text*/
+#banner .container1 {
+	animation-duration: 3s;
+	animation-name: slidein;
+  }
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 70%; 
+	}
+	to {
+	  margin-left: 0%;
+	  width: 70%;
+	}
+  }
+  /*Applying media Queries*/
+@media (min-width:920px){
+	/*Homepage Styling */
+	.container .navbar-brand img{
+		margin-top: 20%;
+		margin-left: 36%;
+	   }
+	   
+	   #banner .container1 h1{
+		   font-size: 3em;
+	   }
+	   #banner .container1 p{
+		   font-size: var(--Paragraphs);
+	   }
+   .containervision{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.mission-vision h2{
+	color: var(--blue);
+}
+/*Homepage Styling End */
+
+/*About Us Styling Starts */
+.membership{
+	margin-top: 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}	
+#struct{
+	margin-left: 2em;
+}
+#struct h2{
+	margin-bottom: 0.5em;
+}
+.board {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2em;
+}
+main h2,h3{
+	color: var(--blue);
+	text-align: center;
+	font-size: 2em;
+	}
+main p{
+	text-align: justify;
+	font-size: 1.5em;
+	}
+.history h2{
+	font-size: 1.5em;
+	text-align: center;
+}  
+.board .memboard h3{
+    font-size: 1.5em;
+	text-align: center;
+}
+.membership h2{
+	font-size: 1.5em;
+	text-align: center;
+}
+.board .memboard p{
+	font-size: 1.5em;
+	text-align: center;
+	margin: 30px;
+	}
+.board .memboard img{
+    margin: 30px;
+}
+
+
+/*About Us Styling End */
+
+/*Partners Page Styling Starts*/  
+.partners ul{
+	list-style: none;
+}
+.partners a{
+	text-decoration: none;
+}
+.partners .button h2 {
+	text-decoration: none;
+	border: 3px solid blue;
+	border-radius: 50px;
+	width: 45%;
+	text-align: center;
+}
+ /*Partners Page Styling Ends*/
+
+/*Contact Page */
+	main{
+	margin-top:2em;
+	margin-left:50px;
+	margin-right: 50px;
+	};
+	.map iframe{
+		width:100%; 
+		height:200px;	
+	}
+	.contact{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2em;
+	}
+	.contact_info1 p{
+		text-align: center;
+	}
+	.contact_info2 p{
+		text-align: center;
+		margin-right: 15px;
+	}
+	
+   .contact_info1 img{
+	max-width:10%;
+    height:auto;
+   }
+   .contact_info2 img{
+	max-width:10%;
+    height:auto;
+}
+	/*End of Contact Page */
+
+	/*Footer Styling Starts*/
+	.containerfooter{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.containerfooter .footer-menu-items {
+		text-align: center;
+	  }
+	  .containerfooter .footer-contact-items {
+		text-align: center;
+	  }
+	  .containerfooter .footer-contact-items a {
+		margin: 30px;
+	  }
+	  .footer-contact-items h4{
+		  margin-top: 2em;
+		  margin-left: 3em;
+	  }
+	  .footer-contact-items p{
+		  margin-left: 7em;
+	  }
+	  .footer-contact-items #email{
+		margin-left: 4em;
+	}
+       .sub-footer .container10 .row1 a{
+		   color: var(--white);
+	   }
+	}  
+
+/*Footer Styling Ends*/
+	
+
+
+
+
+
+
+
+

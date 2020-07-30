@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://silnorf.netlify.app/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/homepage/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/partners/dcisl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/partners/fohrd/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/partners/protect-sl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf.netlify.app/tags/</loc>
+  </url>
+  
+</urlset>

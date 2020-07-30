@@ -1,0 +1,45 @@
+{{ define "main"}}
+<main>
+    <div class="history">
+      {{ with .Resources.GetMatch "history.md" }}
+      {{ .Content }}
+    {{ end }}
+    </div>
+
+    <Section class="membership">
+      <div>
+       <img src="{{ .Resources.GetMatch `welcome.jpg`}}"> 
+      </div>
+      <div id="struct">
+          {{ with .Resources.GetMatch "membershipstruct.md" }}    
+          {{ .Content}}
+    {{ end }}
+    </div>
+    </Section>
+
+      <section class="board">
+        <div class="memboard">
+            
+            <img src="{{ .Resources.GetMatch `more-info.jpg`}}">
+            <p>
+              {{ with .Resources.GetMatch "management.md" }}    
+              {{ .Content}}
+        {{ end }}
+          </p> 
+           </div>
+          <div class="memboard">
+    
+          <div>
+            <img src="{{ .Resources.GetMatch `more-info.jpg`}}"> 
+           </div>
+           <p>
+            {{ with .Resources.GetMatch "secretariate.md" }}    
+            {{ .Content}}
+      {{ end }}
+    </p>
+        </div>
+    
+      </section>
+   
+</main>
+{{end}}

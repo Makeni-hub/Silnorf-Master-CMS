@@ -1,0 +1,7 @@
+baseURL = "https://silnorf.netlify.app/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[params]
+    email_icon = "SVG/email.svg"
+    location_icon = "SVG/location.svg"

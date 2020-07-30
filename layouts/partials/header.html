@@ -1,0 +1,26 @@
+<header>
+    <div class="container"> 
+        <nav>
+              <a href="/index.html" rel="home"><img src="/images/SilNorf.png" class="navbar-brand" alt="logo"></a>
+          <ul class="navbar-nav">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    <li>
+                        <a class="{{if ($currentPage.IsMenuCurrent "main" .) }} current{{end}}"
+                            href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}
+                        </a>
+                    </li>
+                {{ end }}
+        </ul>
+        </nav>
+    </div>
+ </header>
+ <!--
+          <ul class="navbar-nav">
+              <li class="current"><a href="/index.html">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/partners">Partners</a></li>
+              <li><a href="/contact">Contact</a></li>
+          </ul>
+-->
+ 
