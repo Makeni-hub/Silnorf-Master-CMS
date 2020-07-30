@@ -52,7 +52,4 @@ collections:
       - {label: "Email", name: "email", widget: "string"}
       - {label: "Telephone", name: "tel", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Type", name: "type", widget: "hidden"}
-      - {label: "Menu", name: "menu", widget: "hidden"}
-      - {label: "Weight", name: "weight", widget: "hidden"}
       - {label: "Body", name: "body", widget: "markdown"}
