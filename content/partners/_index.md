@@ -1,6 +1,6 @@
 ---
 type: partner
-title: Network Partners
+title: "Network Partners"
 menu: "main"
 weight: 3
 ---
