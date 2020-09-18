@@ -1,12 +1,16 @@
 <footer>
   <div>
     <h4>Links to Primary Menu</h4>
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/about">About Us</a></li>
-      <li><a href="/partners">Partners</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
+        <ul class="navbar-nav">
+              {{ $currentPage := . }}
+              {{ range .Site.Menus.main }}
+                  <li>
+                      <a class="{{if ($currentPage.IsMenuCurrent "main" .) }} current{{end}}"
+                          href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}
+                      </a>
+                  </li>
+              {{ end }}
+      </ul>
   </div>
 
   <div>
