@@ -1,302 +1,216 @@
 :root {
---font-family: sans-serif;
---font-size: 1.2em;
---main-heading: 45px;
---sub-heading: 20px;
---white: #ffffff;
---green:#009933;
---blue:#3377ff;
---black: #000000;
---Paragraphs: 1em;
+	--font-family: sans-serif;
+	--font-size: 1.2em;
+	--main-heading: 2em;
+	--sub-heading: 1.5em;
+	--white: #ffffff;
+	--green: #009933;
+	--blue: #3377ff;
+	--black: #000000;
+	--paragraphs: 1.3em;
+	--footer-margin: 1em;
 }
-*{
+
+* {
 	box-sizing: border-box;
 }
+
 /*
 Adding CSS Reset Code
 	Applying CSS reset to all major HTML tags
 */
-body,
-div,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-	margin:0; 
-	padding:0;
-}
-body{
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
 	font-family: var(--font-family);
 }
 
-.container{
-   margin: auto;
-   overflow: hidden;
+.container {
+	margin: auto;
+	overflow: hidden;
 }
 
-main{
-	margin-left: 5em;
-	margin-top: 5em;
+main {
+	margin: 1em 1em 0 1em;
+	padding: 1em 0;
+	text-align: left;
+	font-size: 1.3em;
 }
-h1{
+
+h1, h2 {
 	color: var(--blue);
-	font-size: 20px;
+	text-align: center;
+	font-size: 1.7;
+}
+main h4, h3{
+	text-align: left;
+	color: var(--blue);
 }
 
-ul li{
+main li {
 	margin-left: 2em;
+	font-size: var(--paragraphs);
 }
-ol li{
-	margin-left: 2em;
+main svg{
+	width: 3em;
+	fill:var(--green)
 }
 
 /*Header Styling*/
-header .container{
-	background-color: var(--white);
+
+header .container {
 	border-bottom: 5px solid var(--blue);
 }
-.navbar-brand{
+
+.navbar-brand {
 	width: 5em;
 	float: left;
 }
-nav ul{
+
+nav ul {
 	display: flex;
 	float: right;
 	margin-right: 1em;
+	list-style: none;
 }
-nav ul li{
-	list-style-type: none;
-	margin-top: 2.5em;
+
+nav ul li {
+	margin-top: 1.0em;
 	margin-left: 2em;
 }
-nav ul li a{
+
+a {
 	text-decoration: none;
 }
 
 .navbar-nav a:hover {
 	color: var(--blue);
-
-  }
-
-header .current a{
-color: #1cb836;
-font-weight: bold;
 }
 
-
-main{
-	margin-left: 3em;
-	margin-right: 3em;
+.current {
+	color: var(--green);
+	font-weight: bold;
 }
 
 /* Styling Home Page Body Section Starts Here*/
 
 /* Banner Styling */
-#banner  {
+
+#banner {
 	background: url(../images/bg.jpg);
 	background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-	color: var(--blue);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-#banner h1{
-	   padding-top: 150px;
-	   text-align: center;
-	   font-size: 2em;
-	   padding-bottom: 200px;
-	   margin: 0 2px 0 2px;
+
+#banner h1 {
+	padding: 5em 0 5em 0;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 2px 0 2px;
 }
 
 /* Mission, visison and Values section */
-.containervision{
-	display: block;
 
+#mission-vision-section {
+	display: block;
 }
-#mission-vision-section .containervision {
-	font-size: var(--sub-heading);
-  }
-#mission-vision-section .mission-vision {
+
+.mission-vision {
 	text-align: center;
 	padding: 10px;
-  }
-  #mission-vision-section .mission-vision p {
-	padding-left: 50px;
-	padding-right: 50px;
-  }
-  #mission-vision-section .mission-vision img{
+}
+
+.mission-vision img {
 	width: 100%;
-  }
-  #mission-vision-section .mission-vision h3{
-	margin-top: 10px;
-	margin-bottom: 20px;
-  }
-  .mission-vision h2{
-	color: var(--blue);
-  }
-/*Main Discription Section*/
-/*Changing the class for description section and adding it's own seperate setting*/
-.container-service{
-	display: grid;
-	/*grid-template-columns: 1fr 1fr 1fr;*/
-	grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
-	grid-template-rows: 1fr;
-	margin-left: 50px;
-	cursor: pointer;
 }
-#main-discriptions .discription-heading{
-	margin-top: 100px;
-	margin-bottom: 70px;
-	text-align: center;
+
+#main-discriptions {
+	margin: 3em 0 2em 0;
 }
-#main-discriptions .discription-heading h2{
-	font-size: var(--main-heading);
-	margin-top: 100px;
-	color: var(--blue);
-	font-size:40px;
-	margin-bottom: 30px;
-}
-#main-discriptions .discription-heading p{
-	margin-bottom: 50px;
-	font-size: 20px;
-	padding-left: 80px;
-	padding-right: 80px;
-}
-#main-discriptions{
-	margin-top: 70px;
-	margin-bottom: 100px;
-}
-#main-discriptions .discription img{
-width:100%;
-}
-#main-discriptions .discription h3{
-	color: var(--green);
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-#main-discriptions .discription p{
-	padding: 10px;
+
+#main-discriptions p {
+	padding: 0 1em 0 1em;
 }
 
 /* About Page */
-.history p{
-	text-align: left;
-}
-#struct p {
-	text-align: left;
-	}
-	.memboard p {
-		text-align: left;
-		}
+
 .membership {
 	display: block;
-	}
-	.membership img {
-		
-		width: 100%;
-		}
-#struct{
-	margin: 0.5em;
-	}
-	#struct h2{
-		font-size: 1.5em;
-		}
-	
+}
+
+img {
+	width: 100%;
+}
+
 .board {
 	display: block;
-	}
-	.board .memboard img {
-		width: 100%;
-		}
-main h2,h3{
-	color: var(--blue);
-	text-align: center;
-	font-size: 2em;
-	}
-main p{
-text-align: left;
-font-size: 1.5em;
 }
+
 /* End of About Page */
 
-/*Partners Page Styling Starts*/  
-.partners ul{
+/*Partners Page Styling Starts*/
+
+
+
+.partners h1 {
+	font-size: 1em;
+}
+
+.partners ul {
 	list-style: none;
 }
-.partners a{
-	text-decoration: none;
-}
-.partners h1{
-	color: var(--blue);
-}
-.partners .button h2 {
-	text-decoration: none;
-	border: 3px solid var(--blue);
-	color: blue;
-	border-radius: 50px;
-	width: 45%;
-	text-align: center;
-	font-size: 1.3em;
-}
-.partnersheader{
-	box-sizing: border-box;
-	margin-bottom: 2em;
-}
-.partnersheader h1{
-	font-size: 2em;
-	color: var(--blue);
-	text-align: center;
-}
-.partnersheader p{
+
+.partnersheader p {
 	font-style: italic;
 	text-align: center;
-	font-size: 14px;
+	font-size: .6em;
 }
 
- /*Partners Page Styling Ends*/
+/*Partners Page Styling Ends*/
 
-		
 /*Contact Page */
-.containerfooter{
-	margin-top: 30px;
+
+footer {
+	padding-top: var(--footer-margin);
+	text-align: center;
+	background-color: var(--green);
 }
-.contact{
+
+.contact {
 	display: block;
+	text-align: center;
 }
-.contact_info1{
+
+.contact_info1 {
 	margin-top: 0.5em;
 }
-.contact_info1 img{
-		max-width:10%;
-		height:auto;
-	    margin-left: 45%;
+
+svg {
+	width: 1.5em;
+	height: auto;
 }
-.contact_info2 img{
-	max-width:10%;
-	height:auto;
-	margin-left: 45%;
+
+footer svg {
+	margin-top: 1em;
 }
-.contact_info1 p{
+
+#mission-vision-section svg{
+	width: 3em;
+	fill: var(--green);
+}
+
+.contact_info1 p {
 	text-align: center;
 }
-.contact_info2 p{
+
+.contact_info2 p {
 	text-align: center;
 }
-.contact_info2{
+
+.contact_info2 {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
@@ -304,257 +218,162 @@ font-size: 1.5em;
 .map iframe {
 	/*width:1200px;*/
 	width: 100%;
-	height:400px;	
+	height: 400px;
 }
 
 /*End of Contact Page */
-.containerfooter{
-	display: block;
-	background-color: var(--green);
-	clear: both;
-}
+
 /*Styling footer menu links*/
-.footer-menu-items h4{
-	text-align: center;
-	padding-top: 2em;
-	padding-bottom: 1em;
-}
-.footer-menu-list {
-	list-style: none;
-}
-.footer-menu-list a{
-	text-decoration: none;
-	color: blue;
-}
-.footer-menu-list a:hover{
+
+footer a:hover {
 	color: white;
 }
-.footer-menu-list li {
-	text-align: center;
+
+footer ul {
+	margin-top: 1em;
+}
+
+footer li {
 	padding-bottom: 1em;
 }
 
-/*Styling footer Contact Items*/
-.footer-contact-items h4{
-	text-align: center;
-}
-.footer-contact-items ul{
-	text-align: center;
-}
-.footer-contact-items ul a p{
-	text-align: center;
-}
-.footer-contact-items ul a #email{
-	padding-bottom: 2em;
-}
-
-.footer-contact-list a {
-	text-decoration: none;
-}
-.footer-contact-list a p{
-	text-align: left;
-	color: white;
-}
-.footer-contact-list a img{
-	padding-top: 10px;
-	width: 25px;
-	Margin-left: 25px;
-}
-
-.sub-footer .container10 .row1{
+.sub-footer {
 	background-color: var(--black);
 	color: var(--white);
-	padding: 10px;
+	padding: .8em;
+	margin-top: var(--footer-margin);
 	text-align: center;
-	clear: both;
-}
-.sub-footer .container10 .row1 a{
-	color: var(--green);
-	text-decoration: none;
-}
-/*Applying Transition Effect on Services */
-.discription:hover{
-	transition: ease;
-	transform: translateY(-10px);
-}
-.discription img:hover{
-	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
-/*Appying Amimation on the banner text*/
-#banner .container1 {
-	animation-duration: 3s;
-	animation-name: slidein;
-  }
-  @keyframes slidein {
-	from {
-	  margin-left: 100%;
-	  width: 70%; 
-	}
-	to {
-	  margin-left: 0%;
-	  width: 70%;
-	}
-  }
-  /*Applying media Queries*/
-@media (min-width:920px){
+.sub-footer a {
+	color: var(--green);
+}
+
+/*End of Sub footer style */
+
+/*Applying media Queries*/
+
+/*Homepage Styling */
+
+@media (min-width: 920px) {
 	/*Homepage Styling */
-	.container .navbar-brand img{
+	.container .navbar-brand img {
 		margin-top: 20%;
 		margin-left: 36%;
-	   }
-	   
-	   #banner .container1 h1{
-		   font-size: 3em;
-	   }
-	   #banner .container1 p{
-		   font-size: var(--Paragraphs);
-	   }
-   .containervision{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-.mission-vision h2{
-	color: var(--blue);
-}
-/*Homepage Styling End */
-
-/*About Us Styling Starts */
-.membership{
-	margin-top: 2em;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}	
-#struct{
-	margin-left: 2em;
-}
-#struct h2{
-	margin-bottom: 0.5em;
-}
-.board {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 2em;
-}
-main h2,h3{
-	color: var(--blue);
-	text-align: center;
-	font-size: 2em;
 	}
-main p{
-	text-align: justify;
-	font-size: 1.5em;
+	#banner .container1 h1 {
+		font-size: 3em;
+		padding: 3em 1em 3em 1em;
+		animation-duration: 3s;
+		animation-name: slidein;
 	}
-.history h2{
-	font-size: 1.5em;
-	text-align: center;
-}  
-.board .memboard h3{
-    font-size: 1.5em;
-	text-align: center;
-}
-.membership h2{
-	font-size: 1.5em;
-	text-align: center;
-}
-.board .memboard p{
-	font-size: 1.5em;
-	text-align: center;
-	margin: 30px;
+	@keyframes slidein {
+		from {
+			font-size: 0.1em;
+			color: var(--green)
+		}
+		to {
+			transition-duration: 2s;
+			-o-transition-delay: 1s;
+			color: var(--blue);
+			font-size: 3em;
+		}
 	}
-.board .memboard img{
-    margin: 30px;
-}
-
-
-/*About Us Styling End */
-
-/*Partners Page Styling Starts*/  
-.partners ul{
-	list-style: none;
-}
-.partners a{
-	text-decoration: none;
-}
-.partners .button h2 {
-	text-decoration: none;
-	border: 3px solid blue;
-	border-radius: 50px;
-	width: 45%;
-	text-align: center;
-}
- /*Partners Page Styling Ends*/
-
-/*Contact Page */
-	main{
-	margin-top:2em;
-	margin-left:50px;
-	margin-right: 50px;
-	};
-	.map iframe{
-		width:100%; 
-		height:200px;	
+	nav ul li {
+		margin-top: 2em;
+		margin-left: 2em;
 	}
-	.contact{
+	.container .navbar-brand img {
+		margin-top: 20%;
+		margin-left: 36%;
+	}
+	body {
+		font-family: var(--font-family);
+		font-size: 1.3em;
+	}
+	main {
+		margin: 1em 1em 0 1em;
+		padding: 1em 0;
+		text-align: left;
+	}
+	main h1, h2 {
+		text-align: center;
+		color: var(--blue);
+	}
+	main h3, h4 {
+		color: var(--blue);
+	}
+	main h1 {
+		font-size: var(--main-heading);
+	}
+	#mission-vision-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 2em 0;
+	}
+	/*Homepage Styling End */
+	.membership {
+		margin-top: 2em;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 2em;
+		gap: 2em;
 	}
-	.contact_info1 p{
+	#struct h2 {
+		margin-bottom: 0.5em;
+	}
+	.board {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2em;
+		margin-top: 2em;
+	}
+	/*About Us Styling End */
+	/*Partners Page Styling Starts*/
+	.partners ul {
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.button h2 {
+		text-decoration: none;
+		border: 3px solid blue;
+		border-radius: 50px;
+		width: 45%;
 		text-align: center;
 	}
-	.contact_info2 p{
-		text-align: center;
-		margin-right: 15px;
+	.button h2:hover {
+		color: white;
+		background-color: blue;
 	}
-	
-   .contact_info1 img{
-	max-width:10%;
-    height:auto;
-   }
-   .contact_info2 img{
-	max-width:10%;
-    height:auto;
-}
+	/*Partners Page Styling Ends*/
+	/*Contact Page */
+	.map iframe {
+		width: 100%;
+		height: 400px;
+	}
+	.contact {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
 	/*End of Contact Page */
-
 	/*Footer Styling Starts*/
-	.containerfooter{
+	footer {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
-	.containerfooter .footer-menu-items {
-		text-align: center;
-	  }
-	  .containerfooter .footer-contact-items {
-		text-align: center;
-	  }
-	  .containerfooter .footer-contact-items a {
-		margin: 30px;
-	  }
-	  .footer-contact-items h4{
-		  margin-top: 2em;
-		  margin-left: 3em;
-	  }
-	  .footer-contact-items p{
-		  margin-left: 7em;
-	  }
-	  .footer-contact-items #email{
-		margin-left: 4em;
-	}
-       .sub-footer .container10 .row1 a{
-		   color: var(--white);
-	   }
-	}  
+}
+#gridpartners{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-auto-columns: auto;
+
+
+}
 
 /*Footer Styling Ends*/
-	
-
-
-
-
-
-
-
-

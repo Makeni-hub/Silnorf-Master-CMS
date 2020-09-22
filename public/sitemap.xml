@@ -3,45 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://silnorf.netlify.app/</loc>
+    <loc>https://silnorf-master.netlify.app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf-master.netlify.app/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf-master.netlify.app/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf-master.netlify.app/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://silnorf-master.netlify.app/homepage/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://silnorf.netlify.app/about/</loc>
+    <loc>https://silnorf-master.netlify.app/categories/</loc>
   </url>
   
   <url>
-    <loc>https://silnorf.netlify.app/homepage/</loc>
-    <priority>0</priority>
+    <loc>https://silnorf-master.netlify.app/partners/dci-sl/</loc>
   </url>
   
   <url>
-    <loc>https://silnorf.netlify.app/partners/dcisl/</loc>
+    <loc>https://silnorf-master.netlify.app/partners/fohrd/</loc>
   </url>
   
   <url>
-    <loc>https://silnorf.netlify.app/categories/</loc>
+    <loc>https://silnorf-master.netlify.app/partners/lac/</loc>
   </url>
   
   <url>
-    <loc>https://silnorf.netlify.app/contact/</loc>
+    <loc>https://silnorf-master.netlify.app/partners/protect-sl/</loc>
   </url>
   
   <url>
-    <loc>https://silnorf.netlify.app/partners/fohrd/</loc>
-  </url>
-  
-  <url>
-    <loc>https://silnorf.netlify.app/partners/protect-sl/</loc>
-  </url>
-  
-  <url>
-    <loc>https://silnorf.netlify.app/partners/</loc>
-  </url>
-  
-  <url>
-    <loc>https://silnorf.netlify.app/tags/</loc>
+    <loc>https://silnorf-master.netlify.app/tags/</loc>
   </url>
   
 </urlset>

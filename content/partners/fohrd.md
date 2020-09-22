@@ -6,6 +6,7 @@ email: forumforhumanrightdevelopment@gmail.com
 tel: +232-88-103-349
 description: FOHRD  advocates  for  the  provision  of  equal  opportunities  and  promotion  of  participation  of  women
   and children in all facets of national development as being enjoyed by men.
+partner_image: /images/service_01.jpg
 ---
 ### ORGANIZATION PROFILE 
 
@@ -17,7 +18,8 @@ Contact Person: Mariatu B. Conteh- Coordinator
 
 # Problem/ Preamble 
 We  live  in  a  country  where  women  have  encountered  serious  injustice,  especially  in  rural 
-communities  that  women  become  vulnerable  and  that  has  created  serious  setbacks  amongst people,  and  even  members  of  the  same  settings.  Discrimination  against  women,  children  and 
+communities  that  women  become  vulnerable  and  that  has  created  serious  setbacks  amongst 
+people,  and  even  members  of  the  same  settings.  Discrimination  against  women,  children  and 
 youths in all works of lives have suffered discrimination in education, politics, local governance; 
 decision making etc. conflicts for livelihood and chieftaincy have also been a problem especially 
 in the north part of the country. In order for Sierra Leone to be part of a civilized global society, 

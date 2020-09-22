@@ -6,6 +6,7 @@ email: "protectsierraleone@gmail.com"
 tel: "+232 76 200221/+232-31 468459"
 description: "P.R.O.T.E.CT-SL are into Women's Land Rights, Right to Food, Responsible Land Governance."
 draft: false
+partner_image: /images/service_03.jpg
 ---
 
  Promoting Rights & Obligations, Transformation Education, Commitment & Tolerance ( P.R.O.T.E.CT-SL)

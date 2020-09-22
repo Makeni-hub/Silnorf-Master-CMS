@@ -1,22 +1,18 @@
+ {{ define "main"}}
 
-   {{ define "main"}}
-   <main>
-    <hr>
-    <div class="partners">
-    <ul>
-    {{ range .Pages}}
-  
-   <li><a href="{{.Permalink}}">
-       <h1>{{.Title}}</h1> 
-    </a></li>
-    <h4>{{.Params.address}}</h4>
-    <p>{{.Description}}</p>
-    <a class="button" href="{{.Permalink}}">
-        <h2>{{.Params.read_more}}</h2> 
-     </a>
-    <hr>
-   {{end}}
-   </ul>
-    </div>
+<main>
+    <section class="partners">
+        {{ range .Pages}}
+        <div class="mission-vision">
+            <img src="{{ .Params.partner_image}}">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Description }}</p>
+        </div>
+        {{ end }}
+
+    </section>
+
+
+
 </main>
-    {{end}}
+{{end}}
