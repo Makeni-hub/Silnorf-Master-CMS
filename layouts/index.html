@@ -1,24 +1,21 @@
+ {{define "main"}} {{ partial "banner.html" .}}
+<!--================Vision, Mission, and Value Area =================-->
+<div class="mission-vision-section">
+    {{ $resources := (.GetPage "homepage").Resources}} {{ range $resources.Match "*.md" }}
+    <div class="mission-vision">
+        {{ partial .Params.icon }}
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Content }}</p>
+    </div>
+    {{ end }}
 
-{{define "main"}}
-{{ partial "banner.html" .}}
- <!--================Vision, Mission, and Value Area =================-->
-       <section id="mission-vision-section">
-               {{ $resources := (.GetPage "homepage").Resources}}
-               {{ range $resources.Match "*.md" }}
-               <div class="mission-vision">
-                  {{ partial .Params.icon }} 
-                  <h2>{{ .Title }}</h2>
-                  <p>{{ .Content  }}</p>
-               </div>
-               {{ end }}
-           
-       </section>
- <!--================End Vision, Mission, and Value Area =================-->
- 
- <!--================Brief Description Area =================-->
-        <section id="main-discriptions">
-         <div class="discription-heading">
-            {{.Content}}
-        </div>  
-     </section>
+</div>
+<!--================End Vision, Mission, and Value Area =================-->
+
+<!--================Brief Description Area =================-->
+<div id="main-discriptions">
+    <div class="discription-heading">
+        {{.Content}}
+    </div>
+</div>
 {{end}}
