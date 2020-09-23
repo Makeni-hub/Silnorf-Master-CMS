@@ -16,6 +16,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Menu Name", name: "menu", widget: "hidden"}
       - {label: "Menu Weight", name: "weight", widget: "hidden"}
+      - {label: "Banner Image", name: "banner_img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "homepage" # Used in routes, e.g., /admin/collections/blog
