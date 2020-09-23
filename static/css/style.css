@@ -417,13 +417,4 @@ footer li {
     }
 }
 
-.partners {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: auto;
-}
-
-
-}
-
 /*Footer Styling Ends*/

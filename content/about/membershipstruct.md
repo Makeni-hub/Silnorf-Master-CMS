@@ -1,5 +1,6 @@
 ---
 title: membershipstruct
+membershipstruct_img: /images/service_02.jpg
 ---
 ## Membership/Structure of SiLNoRF
 SiLNoRF is a membership organization, and its membership is comprised of Civil Society Organizations and NGOs that have subscribed to the network. 
