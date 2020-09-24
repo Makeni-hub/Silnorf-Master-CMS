@@ -1,27 +1,28 @@
 {{ define "main"}}
 <main>
 
+   {{ with .Resources.GetMatch "history.md" }}    
      <Section class="membership">
-      <div>
-       <img src="/images/welcome.jpg"> 
-      </div>
-      <div id="struct">
-          {{ with .Resources.GetMatch "history.md" }}    
+       <div id="struct">
           {{ .Content}}
-          {{ end }}
-    </div>
-    </Section>
+       </div>
 
-    <Section class="membership">
-      <div>
-       <img src="/images/welcome.jpg"> 
-      </div>
-      <div id="struct">
-          {{ with .Resources.GetMatch "membershipstruct.md" }}    
-          {{ .Content}}
-    {{ end }}
-    </div>
+        <div>
+          <img src="{{ .Params.history_img}}"> 
+        </div>
     </Section>
+     {{ end }}
+    
+    {{ with .Resources.GetMatch "membershipstruct.md" }} 
+      <Section class="membership">
+        <div>
+        <img src="{{ .Params.membershipstruct_img}}"> 
+        </div>
+        <div id="struct">
+            {{ .Content}}
+        </div>
+      </Section>
+    {{ end }}
         
       <section class="board">
         <div class="memboard">
@@ -29,7 +30,7 @@
               {{ with .Resources.GetMatch "management.md" }} 
                <img src="{{ .Params.management_img}}">   
               {{ .Content}}
-             {{ end }}
+              {{ end }}
             </p> 
          </div>
         

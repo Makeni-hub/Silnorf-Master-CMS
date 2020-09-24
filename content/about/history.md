@@ -1,5 +1,6 @@
 ---
 title: History
+history_img: /images/welcome.jpg
 ---
 
 

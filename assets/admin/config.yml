@@ -33,12 +33,36 @@ collections:
     label: "About Page" # Used in the UI
     create: false # Allow users to create new documents in this collection
     files: 
+    - file: /content/about/history.md
+      name: "history"
+      label: "History"
+      fields:
+       - {label: Title, name: title, widget: string}
+       - {label: History Image, name: history_img, widget: image}
+       - {label: "Body", name: "body", widget: "markdown"}
+
+    - file: /content/about/membershipstruct.md
+      name: "membershipstruct"
+      label: "Membership Structure"
+      fields:
+       - {label: Title, name: title, widget: string}
+       - {label: Membership Structure Image, name: membershipstruct_img, widget: image}
+       - {label: "Body", name: "body", widget: "markdown"}
+
     - file: /content/about/management.md
       name: "management"
       label: "Management"
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Management Image, name: management_img, widget: image}
+        - {label: "Body", name: "body", widget: "markdown"}
+
+    - file: /content/about/secretariate.md
+      name: "secrtariate"
+      label: "Secretariate"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Secretariate Image, name: secretariate_img, widget: image}
         - {label: "Body", name: "body", widget: "markdown"}
 
         
