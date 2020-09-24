@@ -1,12 +1,12 @@
 ---
 title: FOHRD
 read_more: Read More
+partner_image: /images/link-corporation-logo.jpg
 address: 95 Azzolini Highway, Makeni
 email: forumforhumanrightdevelopment@gmail.com
 tel: +232-88-103-349
 description: FOHRD  advocates  for  the  provision  of  equal  opportunities  and  promotion  of  participation  of  women
   and children in all facets of national development as being enjoyed by men.
-partner_image: /images/service_01.jpg
 ---
 ### ORGANIZATION PROFILE 
 

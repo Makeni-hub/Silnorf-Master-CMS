@@ -1,6 +1,7 @@
 ---
-title: "LAC"
+title: LAC
 read_more: Read More
+partner_image: /images/SilNorf.png
 address: 5 Loya Street Makeni
 email: lagalaaccesscentre2020@gmail.com
 tel: +232 77 257568 /+23276856415
@@ -8,7 +9,6 @@ description: Legal Access Centre (LAC) was established in July 2009 by a group
   of paralegals and human right activist that have worked with human right
   organization and law farm. Legal access centre is independence non-political
   non-profit making.
-partner_image: /images/service_02.jpg
 ---
 # ORGANIZATION PROFILE
 Legal Access Centre (LAC) was established in July 2009 by a group of paralegals and human right activist that have worked with human right organization and law farm. Legal access centre is independence non-political non-profit making.
