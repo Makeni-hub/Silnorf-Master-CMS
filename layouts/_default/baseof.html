@@ -18,6 +18,9 @@
 
     {{ partial "footer" .}}
 
+    <!-- The go script below pre-processes the admin files -->
+    <!-- {{ ((resources.Get "admin/config.yml") | resources.ExecuteAsTemplate "admin/config.yml" .).Permalink }} -->
+    <!-- {{ ((resources.Get "admin/index.html") | resources.ExecuteAsTemplate "admin/index.html" .).Permalink }} -->
     <script>
         if (window.netlifyIdentity) {
           window.netlifyIdentity.on("init", user => {
