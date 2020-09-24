@@ -1,5 +1,5 @@
 ---
-title: "Legal Access Centre (LAC) "
+title: "LAC"
 read_more: Read More
 address: 5 Loya Street Makeni
 email: lagalaaccesscentre2020@gmail.com
