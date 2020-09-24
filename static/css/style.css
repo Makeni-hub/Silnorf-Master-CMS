@@ -361,12 +361,6 @@ footer li {
     .partners ul {
         list-style: none;
     }
-    .partners {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 0.2em;
-        grid-auto-columns: auto;
-    }
     a {
         text-decoration: none;
     }
@@ -400,9 +394,4 @@ footer li {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-<<<<<<< HEAD
-=======
-
->>>>>>> aaa8d879c782edfdbb0bad2f4fb6432dd1c8a491
 /*Footer Styling Ends*/
