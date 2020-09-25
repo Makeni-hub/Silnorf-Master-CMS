@@ -1,7 +1,7 @@
 {{ define "main"}}
 <main>
   {{ with .Resources.GetMatch "history.md" }}
-  <section class="membership">
+  <section class="two-grid-columns-layout">
     <div id="struct">{{ .Content}}</div>
 
     <div>
@@ -10,7 +10,7 @@
   </section>
 
   {{ end }} {{ with .Resources.GetMatch "membershipstruct.md" }}
-  <section class="membership">
+  <section class="two-grid-columns-layout">
     <div>
       <img src="{{ .Params.membershipstruct_img}}" />
     </div>

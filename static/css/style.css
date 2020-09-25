@@ -107,6 +107,7 @@ nav ul {
 nav ul li {
     margin-top: 1.0em;
     margin-left: 2em;
+    color:  var(--blue);
 }
 
 a {
@@ -169,7 +170,7 @@ a {
 
 /* About Page */
 
-.membership {
+.two-grid-columns-layout {
     display: block;
 }
 
@@ -306,6 +307,7 @@ footer li {
     nav ul li {
         margin-top: 2em;
         margin-left: 2em;
+        color: var(--blue);
     }
     .container .navbar-brand img {
         margin-top: 20%;
@@ -339,7 +341,7 @@ footer li {
         grid-gap: 0.2em;
     }
     /*Homepage Styling End */
-    .membership {
+    .two-grid-columns-layout {
         padding-top: 2em;
         padding-bottom: 2em;
         display: grid;
