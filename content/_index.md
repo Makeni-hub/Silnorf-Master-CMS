@@ -3,7 +3,7 @@ type: contact
 title: Home
 menu: main
 weight: 1
-banner_img: /images/bg.jpg
+banner_img: /images/u-1.jpg
 ---
 # Our Main Focus 
 
