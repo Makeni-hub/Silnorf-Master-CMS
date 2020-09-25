@@ -2,7 +2,7 @@
 title: DCI-SL
 read_more: Read More
 partner_image: /images/SilNorf.png
-address: 90 Teko Road Makeni
+address: 94 Teko Road Makeni
 email: dcimakeni@gmail.com
 tel: +232-76 889-799
 description: Defence  for  children  Sierra  Leone  (DCI-SL)  is  a  Sierra  Leonean  chapter  for  Defence  for  Children  International.
