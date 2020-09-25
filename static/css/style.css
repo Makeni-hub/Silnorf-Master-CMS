@@ -5,7 +5,7 @@
     --sub-heading: 1.5em;
     --white: #ffffff;
     --green: #009933;
-    --blue: #3377ff;
+    --blue: #0072c3;
     --black: #000000;
     --paragraphs: 1.3em;
     --footer-margin: 1em;
@@ -89,15 +89,19 @@ header .container {
 }
 
 .navbar-brand {
-    width: 5em;
+    width: 6em;
     float: left;
+}
+.navbar-brand{
+    margin-left: 5em;
 }
 
 nav ul {
     display: flex;
     float: right;
-    margin-right: 1em;
+    margin-right: 5em;
     list-style: none;
+    font-size: 1.2em;
 }
 
 nav ul li {
@@ -109,12 +113,12 @@ a {
     text-decoration: none;
 }
 
-.navbar-nav a:hover {
+.navbar-nav a:visited {
     color: var(--blue);
 }
 
 .current {
-    color: var(--green);
+    color: var(--green) !important;
     font-weight: bold;
 }
 
@@ -243,10 +247,6 @@ footer svg {
 
 /*Styling footer menu links*/
 
-footer a:hover {
-    color: white;
-}
-
 footer ul {
     margin-top: 1em;
 }
@@ -269,9 +269,6 @@ footer li {
     color: var(--green);
 }
 
-.partners {
-    display: block;
-}
 
 
 /*End of Sub footer style */
@@ -316,12 +313,13 @@ footer li {
     }
     body {
         font-family: var(--font-family);
-        font-size: 1.3em;
     }
     main {
-        margin: 1em 1em 0 1em;
-        padding: 1em 0;
-        text-align: left;
+        margin-left: 5em;
+        margin-right: 5em;
+        text-align: justify;
+        font-size: 1.0em;
+        line-height: 1.8em;
     }
     main h1,
     h2 {
@@ -342,7 +340,8 @@ footer li {
     }
     /*Homepage Styling End */
     .membership {
-        margin-top: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2em;
@@ -361,26 +360,10 @@ footer li {
     .partners ul {
         list-style: none;
     }
-    .partners {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 0.2em;
-        grid-auto-columns: auto;
-    }
     a {
         text-decoration: none;
     }
-    .button h2 {
-        text-decoration: none;
-        border: 3px solid blue;
-        border-radius: 50px;
-        width: 45%;
-        text-align: center;
-    }
-    .button h2:hover {
-        color: white;
-        background-color: blue;
-    }
+
     /*Partners Page Styling Ends*/
     /*Contact Page */
     .map iframe {
@@ -400,9 +383,4 @@ footer li {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-<<<<<<< HEAD
-=======
-
->>>>>>> aaa8d879c782edfdbb0bad2f4fb6432dd1c8a491
 /*Footer Styling Ends*/

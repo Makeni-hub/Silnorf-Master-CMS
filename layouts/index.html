@@ -1,4 +1,5 @@
  {{define "main"}} {{ partial "banner.html" .}}
+ <main>
 <!--================Vision, Mission, and Value Area =================-->
 <div class="mission-vision-section">
     {{ $resources := (.GetPage "homepage").Resources}} {{ range $resources.Match "*.md" }}
@@ -18,4 +19,5 @@
         {{.Content}}
     </div>
 </div>
+</main>
 {{end}}

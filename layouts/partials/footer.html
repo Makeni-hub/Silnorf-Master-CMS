@@ -3,7 +3,7 @@
     <h4>Links to Primary Menu</h4>
         <ul class="navbar-nav">
               {{ $currentPage := . }}
-              {{ range .Site.Menus.main }}
+               {{ range .Site.Menus.main }}
                   <li>
                       <a class="{{if ($currentPage.IsMenuCurrent "main" .) }} current{{end}}"
                           href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}
