@@ -1,5 +1,5 @@
 ---
-title: secretariate
+title: Secretariat
 secretariate_img: /images/service_02.jpg
 ---
 # National Secretariat 
