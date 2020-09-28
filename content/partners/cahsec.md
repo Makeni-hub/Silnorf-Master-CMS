@@ -8,27 +8,25 @@ description: "Community Action for Human Security (CAHSec). We live in a country
   where injustice especially in rural communities has created serious disjoints
   amongst people, and even members of the same clan.  "
 ---
-
-
-# **Problem/ preamble**
+##### **Problem/ preamble**
 
 We live in a country where injustice especially in rural communities has created serious disjoints amongst people, and even members of the same clan. Discrimination against women, children and youths in all works of lives has been the order of the day. Women have suffered discrimination in education, politics, local governance; decision-making etc. conflicts for livelihood and chieftaincy have also been a problem especially in the region of the country.
 
 In order for Sierra Leone to be part of the civilized global village, there should be justice, non-discrimination, equal participation in governance, and peaceful co-existence among communities.
 
-## **Mission:**
+##### **Mission:**
 
 CAHSec strives to ensure citizens access to equal opportunities, promotes participation in political governance at all levels, principles of human rights for the attainment of Human Security to the fullest.
 
-## **Vision:**
+##### **Vision:**
 
 CAHSec envisages the existence of a state where there is access to justice, respect for human rights, gender equity, peaceful co-existence among communities and effective participatory governance for national development.
 
-## **Aim**
+##### **Aim**
 
 CAHSec aims to see a society where every Sierra Leonean enjoys peace, human rights, participate in politics and other national developments, regardless of tribe, sex, political affiliation or status.
 
-## **Objectives.**
+##### **Objectives.**
 
 \- To promote access to justice in rural communities
 
@@ -46,31 +44,31 @@ CAHSec aims to see a society where every Sierra Leonean enjoys peace, human righ
 
 To achieve the above objectives, the organization shall embark on the following activities:
 
-<!--\[if !supportLists]-->1. <!--\[endif]-->Awareness raising activities on women, children and youth rights at community level
+<!--\\[if !supportLists]-->1. <!--\\[endif]-->Awareness raising activities on women, children and youth rights at community level
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Community meetings
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Community meetings
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Public lecture
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Public lecture
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Radio discussion programmes
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Radio discussion programmes
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Dramatization
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Dramatization
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Training workshops
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Training workshops
 
-<!--\[if !supportLists]-->2. <!--\[endif]-->Civic Education workshops
+<!--\\[if !supportLists]-->2. <!--\\[endif]-->Civic Education workshops
 
-<!--\[if !supportLists]-->3. <!--\[endif]-->Monitoring, documenting and reporting offences of human rights abuses/ violations
+<!--\\[if !supportLists]-->3. <!--\\[endif]-->Monitoring, documenting and reporting offences of human rights abuses/ violations
 
-<!--\[if !supportLists]-->4. <!--\[endif]-->Popularize and disseminate human rights documents
+<!--\\[if !supportLists]-->4. <!--\\[endif]-->Popularize and disseminate human rights documents
 
-<!--\[if !supportLists]-->5. <!--\[endif]-->Monitoring of detention facilities
+<!--\\[if !supportLists]-->5. <!--\\[endif]-->Monitoring of detention facilities
 
-<!--\[if !supportLists]-->6. <!--\[endif]-->Organize press conferences and symposiums
+<!--\\[if !supportLists]-->6. <!--\\[endif]-->Organize press conferences and symposiums
 
-<!--\[if !supportLists]-->7. <!--\[endif]-->Carry out research activities.
+<!--\\[if !supportLists]-->7. <!--\\[endif]-->Carry out research activities.
 
-<!--\[if !supportLists]-->8. <!--\[endif]-->Strengthen/ build peace in fragmented communities/ chiefdoms
+<!--\\[if !supportLists]-->8. <!--\\[endif]-->Strengthen/ build peace in fragmented communities/ chiefdoms
 
 ORGANOGRAM
 
@@ -92,23 +90,13 @@ To achieve the above objectives, CAHSec shall adapt the following methodologies:
 
 . It will produce regular and occasional feedback on its activities, findings and recommendation by ways of an oral and transparent of public reporting system
 
-
-
-
-
 **CORE PROGRAMMES AND ACTIVITIES**
 
-
-
 **Human Rights Promotion and protection**
-
-
 
 CAHSec engage in promoting and protecting human rights issues through monitoring, documenting and reporting cases of human rights violation and abuses in two districts of its operations. CAHSec also provides referral services for human rights cases and ensure their litigation and redress.
 
 **Access to Justice.**
-
-
 
 CAHSec ensures access to justice especially to women, children and youths in rural communities. Hence CAHSec carries out legal education at the community level, provides mediation, ADR services at its offices in the two districts. CAHSec collaborates with other legal aid human rights organizations / institutions, the Family Support Unit Sierra Leone Police and the ministry of social welfare Gender and children’s Affairs to pursue cases in both the customary and formal courts.
 
@@ -128,8 +116,6 @@ such as inheritance and divorce that adversely affect women generally.
 
 **Livelihoods and Food Rights Advocacy**
 
-
-
 CAHSec enhances access to/continuous basic education, skills training and economic empowerment as a means of livelihood for victims of Sexual and Gender Based Violence (SGBV) and their families in rural communities. Integrate Food Rights Advocacy into all CAHSec’s activities in order to enable communities claim their right to food.
 
 **Youth Empowerment**
@@ -146,53 +132,53 @@ CAHSec has a general focus with emphasis on women, children and youth in rural a
 
 **ACHEIVEMENTS**
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Monitored and report offences of human rights violations/ abuses in the Bombali and Tonkolili Districts:
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Monitored and report offences of human rights violations/ abuses in the Bombali and Tonkolili Districts:
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Advocated for the rights of women and children in the Bombali and Tonkolili Districts.
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Advocated for the rights of women and children in the Bombali and Tonkolili Districts.
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Organized awareness raising workshops in collaboration with other human rights organizations.
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Organized awareness raising workshops in collaboration with other human rights organizations.
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Carried out outreach activities in collaboration with partner organizations.
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Carried out outreach activities in collaboration with partner organizations.
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Organized radio discussion programmes in collaboration with other organizations.
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Organized radio discussion programmes in collaboration with other organizations.
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Worked in collaboration with ENCISS to promote peaceful co-existence and built social cohesion in Sella Limba and Tambakha chiefdoms in Bombali District.
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Worked in collaboration with ENCISS to promote peaceful co-existence and built social cohesion in Sella Limba and Tambakha chiefdoms in Bombali District.
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Implemented projects with funds from various donors in the Bombali and Tonkolili Districts
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Implemented projects with funds from various donors in the Bombali and Tonkolili Districts
 
 **LOCAL AND INTERNNATIONAL NETWORKS**
 
 CAHSec is a member of the following local and international civil society networks:
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Bombali District Human Rights Committee (BDHRC).
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Bombali District Human Rights Committee (BDHRC).
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Tonkolili District Human Rights Committee (TDHRC).
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Tonkolili District Human Rights Committee (TDHRC).
 
-<!--\[if !supportLists]-->- <!--\[endif]-->National Forum for Human Rights (NFHR)
+<!--\\[if !supportLists]-->- <!--\\[endif]-->National Forum for Human Rights (NFHR)
 
-<!--\[if !supportLists]-->- <!--\[endif]-->National emancipation for progress (NaMEP-SL).
+<!--\\[if !supportLists]-->- <!--\\[endif]-->National emancipation for progress (NaMEP-SL).
 
-<!--\[if !supportLists]-->- <!--\[endif]-->West Africa Network for peace building- Sierra Leone (WANEP-SL)
+<!--\\[if !supportLists]-->- <!--\\[endif]-->West Africa Network for peace building- Sierra Leone (WANEP-SL)
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Bombali District CSO Network on the Demand Side Strategy
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Bombali District CSO Network on the Demand Side Strategy
 
-<!--\[if !supportLists]-->- <!--\[endif]-->CAHSec is the regional focal point for CSOs doing court monitoring in the north
+<!--\\[if !supportLists]-->- <!--\\[endif]-->CAHSec is the regional focal point for CSOs doing court monitoring in the north
 
-<!--\[if !supportLists]-->- <!--\[endif]-->CAHSec is a founding member of the African Network on the Right to Food (SiLNoRF)
+<!--\\[if !supportLists]-->- <!--\\[endif]-->CAHSec is a founding member of the African Network on the Right to Food (SiLNoRF)
 
 **PARTNERS/ COLLABORATIONS**
 
 CAHSec work in collaboration with the following organizations:
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Action Aid International – Sierra Leone, Bombali District Office
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Action Aid International – Sierra Leone, Bombali District Office
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Tinap for peace and development organization SL (TIPDO).
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Tinap for peace and development organization SL (TIPDO).
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Defence for children international (DCI-SL)
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Defence for children international (DCI-SL)
 
-<!--\[if !supportLists]-->- <!--\[endif]-->The Human Rights Commission of Sierra Leone
+<!--\\[if !supportLists]-->- <!--\\[endif]-->The Human Rights Commission of Sierra Leone
 
-<!--\[if !supportLists]-->- <!--\[endif]-->Women’s forum for human rights and democracy (WOFHRAD).
+<!--\\[if !supportLists]-->- <!--\\[endif]-->Women’s forum for human rights and democracy (WOFHRAD).
 
 \- Enhancing the interaction between civil society and the state to better poor peoples lives (ENCISS), Bombali District office.
 
@@ -204,23 +190,19 @@ CAHSec work in collaboration with the following organizations:
 
 (UNDP)
 
-
-
 **CHALLENGES**
 
 As a local human rights organization with limited financial resources, CAHSec is faced with serious challenges to meet its set goals and objectives.
 
 <!--EndFragment-->
 
-
-
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:TargetScreenSize>800x600</o:TargetScreenSize>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -260,9 +242,9 @@ As a local human rights organization with limited financial resources, CAHSec is
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
   DefSemiHidden="true" DefQFormat="false" DefPriority="99"
   LatentStyleCount="267">
@@ -518,9 +500,9 @@ As a local human rights organization with limited financial resources, CAHSec is
   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -537,7 +519,7 @@ As a local human rights organization with limited financial resources, CAHSec is
 	font-size:10.0pt;
 	font-family:"Times New Roman","serif";}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -545,13 +527,13 @@ As a local human rights organization with limited financial resources, CAHSec is
 
 Tel: +23278-381690/+23277-415693
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:TargetScreenSize>800x600</o:TargetScreenSize>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -591,9 +573,9 @@ Tel: +23278-381690/+23277-415693
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
   DefSemiHidden="true" DefQFormat="false" DefPriority="99"
   LatentStyleCount="267">
@@ -849,9 +831,9 @@ Tel: +23278-381690/+23277-415693
   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -868,7 +850,7 @@ Tel: +23278-381690/+23277-415693
 	font-size:10.0pt;
 	font-family:"Times New Roman","serif";}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
