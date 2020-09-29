@@ -1,5 +1,5 @@
 ---
-title: management
+title: Management Board
 management_img: /images/bg.jpg
 ---
 ## Management Board
