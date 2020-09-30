@@ -1,7 +1,7 @@
 ---
 title: LAC
 read_more: Read More
-partner_image: /images/SilNorf.png
+partner_image: /images/lac.jpg
 address: 5 Loya Street Makeni
 email: lagalaaccesscentre2020@gmail.com
 tel: +232 77 257568 /+23276856415

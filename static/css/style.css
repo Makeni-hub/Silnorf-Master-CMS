@@ -340,6 +340,10 @@ footer li {
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 0.2em;
     }
+    .mission-vision img{
+        width: 20%;
+        height: 20;
+    }
     /*Homepage Styling End */
     .two-grid-columns-layout {
         padding-top: 2em;
@@ -384,5 +388,24 @@ footer li {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .navbar-nav li{
+        list-style: none;
+    }
+     footer .navbar-nav li :visited{
+       color: var(--black);
+    }
+    footer .navbar-nav li{
+       color: var(--black);
+    }
+    footer .navbar-nav .current {
+     color: var(--white)!important;
+     font-weight: bold;
+       
+    }
+    footer h4{
+        color: var(--black)
+    }
+    
+
 }
 /*Footer Styling Ends*/
