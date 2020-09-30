@@ -1,7 +1,7 @@
 ---
 title: FOHRD
 read_more: Read More
-partner_image: /images/link-corporation-logo.jpg
+partner_image: /images/SilNorf.png
 address: 95 Azzolini Highway, Makeni
 email: forumforhumanrightdevelopment@gmail.com
 tel: +232-88-103-349
