@@ -1,6 +1,6 @@
 ---
 title: History
-history_img: /images/more-info.jpg
+history_img: /images/history.jpg
 ---
 
 

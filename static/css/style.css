@@ -309,6 +309,9 @@ footer li {
         margin-left: 2em;
         color: var(--blue);
     }
+    header .navbar-nav li{
+        color: var(--blue);
+    }
     .container .navbar-brand img {
         margin-top: 20%;
         margin-left: 36%;
