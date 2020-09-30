@@ -286,6 +286,14 @@ footer li {
         margin-top: 20%;
         margin-left: 36%;
     }
+    #banner {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+}
+
     #banner .container1 h1 {
         font-size: 3em;
         padding: 3em 1em 3em 1em;
